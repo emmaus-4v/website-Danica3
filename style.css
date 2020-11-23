@@ -6,7 +6,7 @@ html, body {
     background-color: rgb(27, 20, 116);  
     
     color: #ffffff;
-    font: Verdana, Arial, Sans-Serif;
+    font:  Verdana, Arial, Sans-Serif;
 }
 
 
@@ -14,6 +14,7 @@ main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+
 }
 
 
@@ -37,8 +38,8 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float: left;
-    margin-right: 15px;
+    float: right;
+    margin-left: 15px;
 }
 
 .smalltext {
@@ -54,13 +55,18 @@ a:hover {
     text-decoration: underline;
 }
 
+.block
+{
+   background-color: rgb(133, 215, 247)
+}
+
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #a2c1e4;
+    background-color: rgb(133, 215, 247)
     overflow: hidden;
 }
 

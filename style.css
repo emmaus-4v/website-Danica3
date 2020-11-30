@@ -3,10 +3,17 @@
 html, body {
     height: 100%;
     padding: 0;
+<<<<<<< HEAD
     background-color: rgb(27, 20, 116);  
     
     color: #ffffff;
     font:  Verdana, Arial, Sans-Serif;
+=======
+    background-color: #EEEEEE;  
+    
+    color: #303030;
+    font: Verdana, Arial, Sans-Serif;
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
 }
 
 
@@ -14,7 +21,10 @@ main {
     margin: 0 auto;
     width: 700px;
     position: relative;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
 }
 
 
@@ -24,8 +34,13 @@ article {
 
 
 header {
+<<<<<<< HEAD
     color: rgb(250, 209, 75);
     text-align: left;
+=======
+    color: skyblue;
+    text-align: center;
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
 }
 
 
@@ -37,6 +52,7 @@ footer {
 
 /* specifieke stijlen */
 
+<<<<<<< HEAD
 img.zweeflinks {
     float: left;
     margin-left: 15px;
@@ -51,6 +67,11 @@ img.zweefrechts{
 border: groove;
    border-color:rgb(250, 209, 75);
    border-width: 7px
+=======
+img.zweefLinks {
+    float: left;
+    margin-right: 15px;
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
 }
 
 .smalltext {
@@ -58,7 +79,11 @@ border: groove;
 }
 
 a {
+<<<<<<< HEAD
     color: rgb(238, 222, 74);
+=======
+    color: skyblue;
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
     text-decoration: none;
 }
 
@@ -66,6 +91,7 @@ a:hover {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 .block
 {
    background-color: rgb(68, 184, 230);
@@ -122,13 +148,19 @@ width: 50%;
     width: 200px;
     float: right;
 }
+=======
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
+<<<<<<< HEAD
     background-color: rgb(68, 184, 230);
+=======
+    background-color: #dddddd;
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef
     overflow: hidden;
 }
 
@@ -145,6 +177,7 @@ nav li a {
 }
 
 nav li a:hover {
+<<<<<<< HEAD
     background-color: #eccf90;
 }
 
@@ -153,3 +186,15 @@ nav li a.active {
 }
 
 
+=======
+    background-color: #aaaaaa;
+}
+
+nav li a.active {
+    background-color: skyblue;
+}
+
+
+
+
+>>>>>>> 66935c0aad06f2cb5cd1c04e41cbbb0f39f802ef

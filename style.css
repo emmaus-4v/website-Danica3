@@ -25,7 +25,7 @@ article {
 
 header {
     color: rgb(250, 209, 75);
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -37,9 +37,20 @@ footer {
 
 /* specifieke stijlen */
 
-img.zweefLinks {
-    float: right;
+img.zweeflinks {
+    float: left;
     margin-left: 15px;
+    margin-top:7px;
+    border: groove;
+   border-color:rgb(250, 209, 75);
+   border-width: 5px
+}
+
+img.zweefrechts{
+    float: right;
+border: groove;
+   border-color:rgb(250, 209, 75);
+   border-width: 7px
 }
 
 .smalltext {
@@ -47,7 +58,7 @@ img.zweefLinks {
 }
 
 a {
-    color: skyblue;
+    color: rgb(238, 222, 74);
     text-decoration: none;
 }
 
@@ -57,16 +68,67 @@ a:hover {
 
 .block
 {
-   background-color: rgb(133, 215, 247)
+   background-color: rgb(68, 184, 230);
+   margin:10px;
+   padding:10px;
+   border: groove;
+   border-color:rgb(250, 209, 75);
+   border-width: 7px
+   
 }
 
+#schrijfster
+{
+    width: 50%;
+    border: groove;
+   border-color:rgb(250, 209, 75);
+   border-width: 7px
+}
+
+#idk{
+    width:50%; 
+    float: right;
+    
+}
+
+#iets{
+    margin-top: 405px;
+
+}
+
+.ravenclaw
+{ background-color: steelblue;
+width: 50%;
+}
+
+.hufflepuff
+{ background-color: rgb(250, 209, 75);
+width: 50%;
+}
+
+.slytherin
+{ background-color: seagreen;
+width: 50%;
+}
+
+.gryffindor
+{ background-color: firebrick;
+width: 50%;
+}
+
+#size
+{
+    length: 400px;
+    width: 200px;
+    float: right;
+}
 
 /* navigatiebalk */
 nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: rgb(133, 215, 247);
+    background-color: rgb(68, 184, 230);
     overflow: hidden;
 }
 
@@ -89,7 +151,5 @@ nav li a:hover {
 nav li a.active {
     background-color: rgb(250, 209, 75);
 }
-
-
 
 

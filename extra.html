@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Extra</title>
+
+   <style> html, p {
+  height: 100%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: #1D1F20;
+}
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:400px;
+  height: 200px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
+.gradient-border {
+  --borderWidth: 3px;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+}
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  border-radius: calc(2 * var(--borderWidth));
+  z-index: -1;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
+@keyframes animatedgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+</style>
+</head>
+
+    <body>
+        <main>
+            <header>
+                <h1>Extra</h1>
+                <br>
+            </header>
+            
+            <nav>
+                <ul>
+                    <li><a href="info.html">Informatie</a></li>
+                    <li><a href="houses.html">Houses</a></li>
+                    <li><a href="films.html">Films</a></li>
+                    <li><a href="boeken.html">Boeken</a></li>
+                    <li><a href="karakters.html">Karakters</a></li>
+                    <li><a class= active href="extra.html">Extra</a></li>
+                </ul>
+            </nav>
+            
+            <br>
+            <br>
+        <p><div class="gradient-border" id="box">Animated <br>CSS<br>Gradient Border</div></p>
+            
+        
+            <footer>
+                <hr/>
+                <br>
+                <article>info@emmauscollege.nl</article>
+                <article class="smalltext">copyright A.P. Cammeraat 2016</article>
+                <br>
+            </footer>
+        
+        </main>
+    
+    </body>
+
+
+            
+</html>

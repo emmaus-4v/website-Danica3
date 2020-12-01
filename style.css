@@ -39,7 +39,7 @@ footer {
 img.zweeflinks {
     float: left;
     margin-left: 15px;
-    margin-top:7px;
+    margin-top:17px;
     border: groove;
    border-color:rgb(250, 209, 75);
    border-width: 5px
@@ -47,9 +47,11 @@ img.zweeflinks {
 
 img.zweefrechts{
     float: right;
-border: groove;
+    border: groove;
    border-color:rgb(250, 209, 75);
    border-width: 7px
+   length: 410px;
+    width: 280px;
 }
 
 .smalltext {
@@ -119,7 +121,7 @@ width: 50%;
 {
     length: 400px;
     width: 200px;
-    float: right;
+    
 }
 
 /* navigatiebalk */

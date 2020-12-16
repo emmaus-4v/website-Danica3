@@ -49,8 +49,8 @@ img.zweefrechts{
     float: right;
     border: groove;
    border-color:rgb(250, 209, 75);
-   border-width: 7px
-   length: 410px;
+   border-width: 7px;
+   height: 410px;
     width: 280px;
 }
 
@@ -93,35 +93,55 @@ a:hover {
 }
 
 #iets{
-    margin-top: 405px;
+    margin-top: 440px;
 
 }
 
+/*houses*/
+
 .ravenclaw
 { background-color: steelblue;
-width: 50%;
+    border: groove;
+border-width: 8px;
+border-color: rgb(68, 184, 230);;
+
 }
 
 .hufflepuff
 { background-color: rgb(250, 209, 75);
-width: 50%;
+
 }
 
 .slytherin
 { background-color: seagreen;
-width: 50%;
+
 }
 
 .gryffindor
 { background-color: firebrick;
-width: 50%;
+
+}
+
+#padding
+{
+    padding:7px;
+    width:58%;
+    margin: 10px;
 }
 
 #size
 {
-    length: 400px;
-    width: 200px;
+    height: 250px;
+    width: 230px;
     
+}
+
+.ravenclawimg
+{float:right;
+margin-top: -420px;
+border: groove;
+border-width: 8px;
+border-color: rgb(68, 184, 230);;
 }
 
 /* navigatiebalk */

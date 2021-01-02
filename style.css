@@ -103,23 +103,29 @@ a:hover {
 { background-color: steelblue;
     border: groove;
 border-width: 8px;
-border-color: rgb(68, 184, 230);;
+border-color: rgb(68, 184, 230);
 
 }
 
 .hufflepuff
 { background-color: rgb(250, 209, 75);
-
+    border: groove;
+border-width: 8px;
+border-color: rgb(255, 178, 35);
 }
 
 .slytherin
-{ background-color: seagreen;
-
+{ background-color: seagreen;    
+border: groove;
+border-width: 8px;
+border-color: rgb(63, 151, 63);
 }
 
 .gryffindor
 { background-color: firebrick;
-
+border: groove;
+border-width: 8px;
+border-color: rgb(253, 53, 53);
 }
 
 #padding
@@ -138,10 +144,34 @@ border-color: rgb(68, 184, 230);;
 
 .ravenclawimg
 {float:right;
-margin-top: -420px;
+margin-top: -438px;
 border: groove;
 border-width: 8px;
-border-color: rgb(68, 184, 230);;
+border-color: rgb(68, 184, 230);
+}
+
+.hufflepuffimg
+{float:right;
+margin-top: -310px;
+border: groove;
+border-width: 8px;
+border-color: rgb(255, 178, 35);
+}
+
+.slytherinimg
+{float:right;
+margin-top: -492px;
+border: groove;
+border-width: 8px;
+border-color: rgb(63, 151, 63);
+}
+
+.gryffindorimg
+{float:right;
+margin-top: -400px;
+border: groove;
+border-width: 8px;
+border-color:rgb(253, 53, 53);
 }
 
 /* navigatiebalk */

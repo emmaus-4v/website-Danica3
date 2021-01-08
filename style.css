@@ -42,7 +42,7 @@ img.zweeflinks {
     margin-top:17px;
     border: groove;
    border-color:rgb(250, 209, 75);
-   border-width: 5px
+   border-width: 5px;
 }
 
 img.zweefrechts{
@@ -74,7 +74,7 @@ a:hover {
    padding:10px;
    border: groove;
    border-color:rgb(250, 209, 75);
-   border-width: 7px
+   border-width: 7px;
    
 }
 
@@ -204,8 +204,34 @@ nav li a.active {
 }
 
 
-/* films en boeken */
+/* kleur kopjes */
 
 .yellow {
     color: rgb(250, 209, 75);
+}
+
+/* karakterss*/
+
+.left{
+    float: left;
+width:55%;
+background-color: rgb(68, 184, 230);
+margin:10px;
+padding:10px;
+border: groove;
+border-color:rgb(250, 209, 75);
+border-width: 7px;
+   
+}
+
+.right{
+float: right;
+width:55%;
+background-color: rgb(68, 184, 230);
+margin:10px;
+padding:10px;
+border: groove;
+border-color:rgb(250, 209, 75);
+border-width: 7px;
+text-align: right;
 }

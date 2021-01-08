@@ -34,6 +34,7 @@ footer {
 }
 
 
+
 /* specifieke stijlen */
 
 img.zweeflinks {
@@ -234,4 +235,172 @@ border: groove;
 border-color:rgb(250, 209, 75);
 border-width: 7px;
 text-align: right;
+}
+
+.imgleft{
+    float: left;
+    margin-top:10px;
+    margin-left: 10px;
+    border: groove;
+   border-color:rgb(250, 209, 75);
+   border-width: 7px;
+}
+
+.imgright{
+    float: right;
+    margin-top:10px;
+    margin-right: 10px;
+    border: groove;
+   border-color:rgb(250, 209, 75);
+   border-width: 7px;
+}
+
+#harryimg
+{
+    height: 218px;
+    width: 180px;
+}
+
+#ronimg{
+    height: 175px;
+    width:170px;
+}
+
+#hermioneimg{
+height: 219px;
+    width: 180px;    
+}
+
+#tomimg{
+    height: 350px;
+    width: 210px;
+}
+
+#albusimg{
+    height: 320px;
+    width: 230px;
+}
+
+#severusimg{
+    height: 280px;
+    width: 200px;
+}
+
+#dracoimg{
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+
+
+/*extra*/
+
+.gradient{
+    background-color: black;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding:15px;
+    text-align: center;
+    width: 75%;
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 25px;}
+
+@keyframes gradient{
+0%{
+    color: rgb(255, 225, 91);
+}
+
+    13% {
+		color: rgb(255, 154, 52);   
+	}
+	25% {
+		color: rgb(243, 112, 85);
+    }
+    
+    38% {color:rgb(239, 78, 123);
+    }
+
+    50% {
+        color:rgb(161, 102, 171);
+    }
+
+    63%{
+        color:rgb(80, 115, 184);
+    }
+
+    75%{
+        color:rgb(16, 152, 173);
+    }
+
+    88%{
+        color:rgb(7, 179, 155);
+    }
+	100% {
+		color: rgb(111, 186, 130);
+    }
+}
+
+
+.gradient{
+    animation:gradient 15s infinite;
+}
+
+.do-it{
+  font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;  
+    text-align: center;
+    width: 75%;
+    margin-left: 50px;
+    animation: do-it 5s infinite;
+}
+
+@keyframes do-it {
+	0% {
+		color: rgb(93, 39, 155);
+        font-size: 1rem;
+    }
+    
+    25%{
+        color: rgb(163, 26, 26);
+        font-size: 2rem;
+    }
+	50% {
+		color: rgb(255, 197, 36);
+        font-size: 3rem;
+	}
+	100% {
+        color: rgb(36, 128, 71);
+        font-size: 4rem;
+	}
+}
+
+
+@keyframes titel{
+    0%{
+        color: firebrick;
+    }
+
+    25%{
+        color: rgb(250, 209, 75);
+    }
+
+    50%{
+        color: seagreen
+    }
+
+    75%{
+        color: rgb(89, 14, 251);
+    }
+
+    100%{
+        color: firebrick;
+    }
+}
+
+.titel{
+    animation: titel 5s infinite;
 }
